@@ -1,5 +1,6 @@
 import { useAdviceSlip } from '../hooks/useAdviceSlip.js';
 import React from 'react';
+import '../styles/adviceCard.css';
 
 export function AdviceCard() {
   const { id, advice, refreshAdvice } = useAdviceSlip();
@@ -8,11 +9,10 @@ export function AdviceCard() {
     refreshAdvice();
   };
   return (
-    <>
-      <h1>Advice generator app</h1>
-      {id && <h3>{id}</h3>}
-      {advice && <p>{advice}</p>}
+    <main>
+      {id && <h3 className='id'>{id}</h3>}
+      {advice && <p className='advice'>{advice}</p>}
       <button onClick={handleClick}>Get new adivce</button>
-    </>
+    </main>
   );
 }

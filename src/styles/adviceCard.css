@@ -1,0 +1,20 @@
+:root {
+  --dark-blue: hsl(218, 23%, 16%);
+  --dark-graylish: hsl(217, 19%, 24%);
+  --graylish-blue: hsl(217, 19%, 38%);
+  --neon-green: hsl(150, 100%, 66%);
+  --light-cyan: hsl(193, 38%, 86%);
+}
+
+main {
+  background-color: var(--graylish-blue);
+  border: 1px solid red;
+}
+
+.id {
+  color: var(--neon-green);
+}
+
+.advice {
+  color: var(--light-cyan);
+}
