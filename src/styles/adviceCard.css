@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@800&display=swap');
-
 :root {
-  --dark-blue: hsl(218, 23%, 16%);
-  --dark-graylish: hsl(217, 19%, 24%);
-  --graylish-blue: hsl(217, 19%, 38%);
-  --neon-green: hsl(150, 100%, 66%);
-  --light-cyan: hsl(193, 38%, 86%);
+  --dark-blue: #1f2632;
+  --dark-graylish: #323a49;
+  --graylish-blue: #4e5d73;
+  --neon-green: #52ffa8;
+  --light-cyan: #cee3e9;
 }
 
 img {
@@ -92,7 +90,7 @@ body {
 }
 
 .container button:hover {
-  background-color: hsl(150, 59%, 54%);
+  background-color: #44cf8a;
 }
 
 @media (min-width: 500px) {
