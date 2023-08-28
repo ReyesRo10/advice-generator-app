@@ -35,8 +35,9 @@ export function AdviceCard() {
       <button
         className='bg-neon-green p-5 border-none rounded-full absolute left-1/2 -translate-x-1/2 -bottom-[30px] cursor-pointer ease-in-out duration-300 hover:shadow-[0_0_20px_1px_rgba(82,255,168,1)]'
         onClick={handleClick}
+        aria-label='Name'
       >
-        <img src={dice} />
+        <img src={dice} alt='dice' />
       </button>
     </main>
   );

@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div class='text-white mt-12'>
+    <footer className='text-white mt-12'>
       Challenge by{' '}
       <a
         className='text-neon-green'
@@ -20,6 +20,6 @@ export function Footer() {
         Rodrigo León
       </a>
       .
-    </div>
+    </footer>
   );
 }

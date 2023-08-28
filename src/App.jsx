@@ -3,12 +3,13 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <>
-      <div className='bg-dark-blue h-screen w-full flex flex-col items-center justify-center px-4'>
-        <AdviceCard />
-        <Footer />
-      </div>
-    </>
+    <div
+      className='bg-dark-blue h-screen w-full flex flex-col items-center justify-center px-4'
+      role='app'
+    >
+      <AdviceCard />
+      <Footer />
+    </div>
   );
 }
 

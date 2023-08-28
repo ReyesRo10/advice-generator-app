@@ -12,8 +12,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -52,4 +50,4 @@ Users should be able to:
 
 - GitHub - [@ReyesRo10](https://github.com/ReyesRo10)
 - Frontend Mentor - [@ReyesRo10](https://www.frontendmentor.io/profile/ReyesRo10)
-- LinkedId - [Rodrigo León Reyes](https://www.linkedin.com/in/rodrigoleonreyes/)
+- LinkedIn - [Rodrigo León Reyes](https://www.linkedin.com/in/rodrigoleonreyes/)
