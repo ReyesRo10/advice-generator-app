@@ -10,7 +10,7 @@ export function AdviceCard() {
     refreshAdvice();
   };
   return (
-    <main className='bg-dark-graylish w-full max-w-md p-10 sm:10 rounded-large text-center relative'>
+    <section className='bg-dark-graylish w-full max-w-md p-10 sm:10 rounded-large text-center relative'>
       {id && (
         <h1 className='text-neon-green text-xs font-extrabold uppercase tracking-large mb-6'>
           advice #{id}
@@ -39,6 +39,6 @@ export function AdviceCard() {
       >
         <img src={dice} alt='dice' />
       </button>
-    </main>
+    </section>
   );
 }
