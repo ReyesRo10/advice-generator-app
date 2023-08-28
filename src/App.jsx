@@ -5,7 +5,7 @@ function App() {
   return (
     <div
       className='bg-dark-blue h-screen w-full flex flex-col items-center justify-center px-4'
-      role='app'
+      role='landmark'
     >
       <AdviceCard />
       <Footer />
